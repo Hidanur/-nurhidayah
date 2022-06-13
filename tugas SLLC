@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+
+//NAMA      : NURHIDAYAH
+//NIM/KELAS : 1121031065 / A
+//NAMA FILE : tugas SLLC
+//Deskripsi File :
+// Membuat fuction untuk mencari data tertentu
+// Membuat fuction untuk menghapus data tertentu
+
+struct TNode {
+    int data;       
+    TNode *next;    
+};
+
+typedef struck TNode{
+      int data;
+      Tnode *next;
+};
+
+TNode *baru;
+baru = new TNode;
+baru->data = databaru;
+baru->next = baru;
+
+TNode *head, *tail;
+
+void init() {
+  head = NULL;
+  tail = NULL;
+} 
+
+int isEmpty() {
+  if (tail == NULL) return 1;
+  else return 0;
+}
+
+void clear() {
+  TNode *bantu,*hapus;
+  if(isEmpty() == 0) {
+     bantu = head;
+     while(bantu = bantu->next;
+           hapus = bantu;
+           bantu = bantu->next;
+           delete hapus;
+     }
+     head = NULL;
+     tail = NULL;
+  }     
+} 
+     
