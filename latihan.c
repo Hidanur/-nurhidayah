@@ -1,8 +1,8 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
-// Nama = Lesta Nabila
-// Nim  = 1121031047
+// Nama = Nurhidayah
+// Nim  = 1121031065
 // Kelas= A
 int main()
 {
